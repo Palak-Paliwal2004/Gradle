@@ -8,7 +8,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Hemavathipcse/GradleJenkinsPipeline.git'
+                git branch: 'master', url: 'https://github.com/Palak-Paliwal2004/Gradle.git
+'
             }
         }
 
@@ -43,4 +44,4 @@ pipeline {
             echo 'Build failed!'
         }
     }
-
+}
